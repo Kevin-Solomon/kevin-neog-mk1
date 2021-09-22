@@ -5,11 +5,11 @@ console.log(`Hi ${userName} ,How well do you know me??`)
 
 var questions=[
   {
-    question:'What is my fav Super hero :',
+    question:'What is my fav ' +chalk.blue('Super hero')+'',
     answer:'Iron Man'
   },
   {
-    question:'What is my fav food :',
+    question:'What is my fav '+chalk.green('food') +': ',
     answer:'biryani'
   },
   {
@@ -49,7 +49,7 @@ for(var i=0;i<questions.length;i++){
 console.log('----check out high score ------');
 for(var i=0;i<highScore.length;i++){
   if(score>highScore[i].score){
-    console.log("You have the highest score !!! Congrats !!!")
+    console.log(chalk.red("You have the highest score !!! Congrats !!!"))
     console.log('Score: ',score, ' by :',userName)
   }
   console.log('Score: ',highScore[i].score, ' by :',highScore[i].name)
