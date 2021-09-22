@@ -5,7 +5,7 @@ console.log(`Hi ${userName} ,How well do you know me??`)
 
 var questions=[
   {
-    question:'What is my fav ' +chalk.blue('Super hero')+'',
+    question:'What is my fav ' +chalk.blue('Super hero')+': ',
     answer:'Iron Man'
   },
   {
@@ -13,15 +13,15 @@ var questions=[
     answer:'biryani'
   },
   {
-    question:'Where do i live :',
+    question:'Where do i live: ',
     answer:'bangalore'
   },
   {
-    question:'what do i study :',
+    question:'what do i study: ',
     answer:'Computer Science'
   },
   {
-    question:'Who is my fav teacher :',
+    question:'Who is my fav teacher: ',
     answer:'Christina'
   },
 ]
